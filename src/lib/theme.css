@@ -1,0 +1,120 @@
+:root {
+  --background-dark: #1a202c;
+  --background-light: #2d3748;
+  --font-color-light: white;
+  --font-family: 'Fira Mono', sans-serif;
+
+  --background-translucent: rgba(128, 128, 128, 0.1);
+  --background-translucent-hover: rgba(128, 128, 128, 0.2);
+  --background-translucent-selected: rgba(128, 128, 128, 0.3);
+
+  --background-interactive: rgba(0, 0, 0, 0.1);
+  --background-interactive-hover: rgba(0, 0, 0, 0.2);
+  --background-interactive-selected: rgba(0, 0, 0, 0.3);
+  --background-secondary: #4a5568;
+
+  --color-accent: #00fadb;
+  --color-label: #a0aec0;
+  --color-label-secondary: #718096;
+  --color-divider: #394457;
+
+  --spacing-xs: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 16px;
+  --radius-xl: 32px;
+
+  --blur-s: 4px;
+  --blur-m: 8px;
+  --blur-l: 16px;
+
+  --shadow-s: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --shadow-m: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --shadow-l: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+
+  --transition-s: 0.2s;
+  --transition-m: 0.4s;
+  --transition-l: 0.8s;
+
+  --easing-default: ease-in-out;
+  --easing-in: cubic-bezier(0.4, 0, 1, 1);
+  --easing-out: cubic-bezier(0, 0, 0.2, 1);
+  --easing-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  background-color: var(--background-dark);
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-dark);
+  color: var(--font-color-light);
+
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0;
+}
+
+h5 {
+  font-size: 0.875rem;
+  line-height: 1.25;
+  font-weight: 700;
+  margin: 0;
+}
+
+h6 {
+  font-size: 0.75rem;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
